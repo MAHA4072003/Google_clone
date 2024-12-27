@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url("boat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+}
+.links{
+    color: white;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    text-decoration: underline 2px;
+}
+.alignment{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background: transparent;
+}
+
+#google{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.relative {
+width: 100%;
+position: relative;
+margin: 15px 0;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 26px;
+    padding: 7px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+#search-bar {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+#shortcut{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+.plus{
+    margin-top: 17px;
+}
+#add{
+    color: white;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 200px;
+    font-size: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.pencil{
+    padding-right: 15px;
+}
+.link{
+    padding-left: 20px;
+}
+
+#search-bar::placeholder {
+    color: #888;
+}
+
+@media (max-width: 500px) {
+    .search-bar-container {
+        padding: 8px;
+    }
+
+    .icon {
+        padding: 0 8px;
+    }
+
+    #search-bar {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+    
+        
